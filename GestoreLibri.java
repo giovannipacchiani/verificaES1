@@ -14,7 +14,7 @@ public class GestoreLibri {
         System.out.println("Benvenuto nel Gestore Libri");
         System.out.println("Test Prestiti");
         Libro l1;
-        l1 = new Libro("Decameron", "Boccaccio",1982,1,2);
+        l1 = new Libro("divina commedia", "dante",1982,1,2);
         System.out.println("Copie iniziali " +l1.getNcopie());
         Prestito p;
         p = new Prestito(l1,"cpsmhl1289hfole","25/09/2026",10);
